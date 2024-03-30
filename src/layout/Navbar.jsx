@@ -1,12 +1,13 @@
 import React, { useState } from "react";
+import Search from "../components/Search";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [search, setSearch] = useState(false);
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
-
   return (
     <div className="sticky top-0">
       <nav className="bg-[#51659C]">
@@ -19,10 +20,7 @@ const Navbar = () => {
             </div>
             <div className="hidden md:flex">
               <div className="flex items-center space-x-4">
-                <a
-                  href="#"
-                  className="text-[#FFFFFF] px-3 py-2 rounded-md"
-                >
+                <a href="#" className="text-[#FFFFFF] px-3 py-2 rounded-md">
                   Home
                 </a>
                 <a
@@ -56,22 +54,16 @@ const Navbar = () => {
                 <a
                   href="#"
                   className=" px-3 py-2 rounded-md"
+                  onClick={() => setSearch(true)}
                 >
                   <img src="search.png" alt="" />
                 </a>
-                <a
-                  href="#"
-                  className=" px-3 py-2 rounded-md"
-                >
+                <a href="#" className=" px-3 py-2 rounded-md">
                   <img src="user.png" alt="" />
                 </a>
-                <a
-                  href="#"
-                  className="px-3 py-2 rounded-md"
-                >
+                <a href="#" className="px-3 py-2 rounded-md">
                   <img src="cart.png" alt="" />
                 </a>
-                
               </div>
             </div>
             <div className="md:hidden">
@@ -134,6 +126,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+      {search && <Search/>}
     </div>
   );
 };
