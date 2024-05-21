@@ -1,4 +1,11 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+import "./styles.css";
 
 const Products = () => {
   const products = [
@@ -56,29 +63,42 @@ const Products = () => {
         </div>
       </div>
       {/*products */}
-      <div className="grid grid-cols-5">
-        {products.map(({ image, name, price, quantity }) => {
-          return (
-            <div>
-              <img src={image} alt="" />
-              <div className="inline-block justify-center">
-                <p>{name}</p>
-                <p>From ${price}</p>
 
-                <div className="flex">
-                  <button className="h-10 w-16 bg-[#51659C] text-white rounded-md ">
-                    -
-                  </button>
-                  <p className="h-10 w-16 text-center py-2">{quantity}</p>
-                  <button className="h-10 w-16 bg-[#51659C] text-white rounded-md ">
-                    +
-                  </button>
+      <Swiper
+        slidesPerView={4}
+        spaceBetween={30}
+        centeredSlides={true}
+        pagination={{
+          clickable: true,
+        }}
+        className="mySwiper"
+      >
+        <div className="grid grid-cols-5">
+          {products.map(({ image, name, price, quantity }) => {
+            return (
+              <SwiperSlide>
+                <div>
+                  <img src={image} alt="" />
+                  <div className="inline-block justify-center">
+                    <p>{name}</p>
+                    <p>From ${price}</p>
+
+                    <div className="flex">
+                      <button className="h-10 w-16 bg-[#51659C] text-white rounded-md ">
+                        -
+                      </button>
+                      <p className="h-10 w-16 text-center py-2">{quantity}</p>
+                      <button className="h-10 w-16 bg-[#51659C] text-white rounded-md ">
+                        +
+                      </button>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-          );
-        })}
-      </div>
+              </SwiperSlide>
+            );
+          })}
+        </div>
+      </Swiper>
     </div>
   );
 };
