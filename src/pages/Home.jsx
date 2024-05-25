@@ -4,6 +4,7 @@ import Slider from "../components/Slider/Slider";
 import Search from "../components/Search";
 import Products from "../layout/products/Products";
 import CategoryShop from "../layout/CategoryShop";
+import Community from "../layout/Community";
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <Slider />
       <Products/>
       <CategoryShop/>
+      <Community/>
     </>
   );
 };
