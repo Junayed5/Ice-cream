@@ -5,6 +5,7 @@ import Search from "../components/Search";
 import Products from "../layout/products/Products";
 import CategoryShop from "../layout/CategoryShop";
 import Community from "../layout/Community";
+import Connected from "../layout/Connected";
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Products/>
       <CategoryShop/>
       <Community/>
+      <Connected/>
     </>
   );
 };
