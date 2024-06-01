@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { CSSTransition } from "react-transition-group";
 import { BsQuestionCircle } from "react-icons/bs";
-
-import "./style.css";
 import { FaChevronDown } from "react-icons/fa";
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
+
+import "./style.css"
 
 const Collapse = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,5 +1,5 @@
 import React from "react";
-import Collapse from "./collapse/Collapse";
+import Collapse from "../components/collapse/Collapse";
 
 const Connected = () => {
   return (
