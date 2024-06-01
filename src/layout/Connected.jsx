@@ -16,10 +16,24 @@ const Connected = () => {
         <img src="connect.png" alt="connect.png" />
       </div>
 
-      <div>
-        <Collapse question="What is this" answer="This is collapse" />
-        <Collapse question="What is this" answer="This is collapse" />
-        <Collapse question="What is this" answer="This is collapse" />
+      <div className="my-8">
+        <div className="pb-8">
+          <h3 className="text-center text-3xl font-semibold ">FAQs</h3>
+          <p className="border-b-2 w-8 mx-auto border-black "></p>
+        </div>
+
+        <Collapse
+          question="Are there nuts in your ice cream?"
+          answer="Some of our flavours contain nuts, so do refer to our product pages for more information on the ingredients for each flavour."
+        />
+        <Collapse
+          question="Is there soy present in your ice cream?"
+          answer="No soy milk is used, but do note that there is soy lecithin used in some of our products such as the chocolate based ones."
+        />
+        <Collapse
+          question="Do you offer same-day delivery?"
+          answer="A resounding YES! Place your order before 4 pm and leave the rest to us!"
+        />
       </div>
     </div>
   );
