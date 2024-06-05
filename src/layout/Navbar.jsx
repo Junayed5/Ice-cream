@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Search from "../components/Search";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -20,15 +21,15 @@ const Navbar = () => {
             </div>
             <div className="hidden md:flex">
               <div className="flex items-center space-x-4">
-                <a href="#" className="text-[#FFFFFF] px-3 py-2 rounded-md">
+                <Link to="/" className="text-[#FFFFFF] px-3 py-2 rounded-md">
                   Home
-                </a>
-                <a
-                  href="#about"
+                </Link>
+                <Link
+                  to="/about"
                   className="text-[#FFFFFF] px-3 py-2 rounded-md"
                 >
                   About
-                </a>
+                </Link>
                 <a
                   href="#skills"
                   className="text-[#FFFFFF] px-3 py-2 rounded-md"
