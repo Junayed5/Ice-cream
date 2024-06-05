@@ -22,10 +22,34 @@ const About = () => {
             community through our ice cream. Thank you to everyone who has been
             a part of our journey!
           </p>
-          <p>Kindly,<br /> Ishpal, Serina & Kind Kones team</p>
+          <p>
+            Kindly,
+            <br /> Ishpal, Serina & Kind Kones team
+          </p>
         </div>
         <div>
           <img src="ice-cream.png" alt="" />
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <h2 className="font-bold text-2xl text-center">OUR TEAM</h2>
+          <p className="border-b-2 w-20 mx-auto border-black py-1"></p>
+
+          <p>
+            “If you take out the team in teamwork, it’s just work. Now who wants
+            that?”
+          </p>
+          <p>– Matthew Woodring Stover –</p>
+        </div>
+        <div>
+          <div className=" ">
+            <img src="person.png" alt="" />
+            <p className="text-xl font-semibold"> CO-FOUNDER</p>
+            <p className="text-sm text-[#979797] ">Favorite Kind Kones:</p>
+            <p className="text-sm text-[#979797] ">Pandan Gula Melaka</p>
+          </div>
         </div>
       </div>
     </div>

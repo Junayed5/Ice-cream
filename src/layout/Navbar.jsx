@@ -15,9 +15,9 @@ const Navbar = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center">
-              <a href="#" className="text-white font-semibold text-xl">
+              <Link to="/" className="text-white font-semibold text-xl">
                 <img src="tittle.png" alt="" />
-              </a>
+              </Link>
             </div>
             <div className="hidden md:flex">
               <div className="flex items-center space-x-4">
