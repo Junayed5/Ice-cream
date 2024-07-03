@@ -30,12 +30,12 @@ const Navbar = () => {
                 >
                   About
                 </Link>
-                <a
-                  href="#skills"
+                <Link
+                  to="/shop"
                   className="text-[#FFFFFF] px-3 py-2 rounded-md"
                 >
                   Shop
-                </a>
+                </Link>
                 <a
                   href="#projects"
                   className="text-[#FFFFFF] px-3 py-2 rounded-md"

@@ -33,20 +33,88 @@ const About = () => {
       </div>
 
       <div>
-        <div>
-          <h2 className="font-bold text-2xl text-center">OUR TEAM</h2>
+        <div className=" text-center">
+          <h2 className="font-bold text-2xl">OUR TEAM</h2>
           <p className="border-b-2 w-20 mx-auto border-black py-1"></p>
 
-          <p>
+          <p className="mt-10" >
             “If you take out the team in teamwork, it’s just work. Now who wants
             that?”
-          </p>
-          <p>– Matthew Woodring Stover –</p>
+          </p >
+          <p className="mt-8">– Matthew Woodring Stover –</p>
         </div>
-        <div>
-          <div className=" ">
-            <img src="person.png" alt="" />
-            <p className="text-xl font-semibold"> CO-FOUNDER</p>
+        <div className="flex max-w-[1440px] justify-center mx-auto">
+          <div className="w-60 mx-9 mt-10 text-center ">
+            <img className="mx-auto" src="person.png" alt="" />
+            <p className="text-xl font-semibold mt-5">SUNIL</p>
+            <p className="text-lg text-[#333333] ">HEAD OF OPS – MALAYSIA</p>
+            <p className="text-sm text-[#979797] ">Favorite Kind Kones:</p>
+            <p className="text-sm text-[#979797] ">Pandan Gula Melaka</p>
+          </div>
+          <div className="w-60 mx-9 mt-10 text-center ">
+            <img className="mx-auto" src="person.png" alt="" />
+            <p className="text-xl font-semibold mt-5">SUNIL</p>
+            <p className="text-lg text-[#333333] ">HEAD OF OPS – MALAYSIA</p>
+            <p className="text-sm text-[#979797] ">Favorite Kind Kones:</p>
+            <p className="text-sm text-[#979797] ">Pandan Gula Melaka</p>
+          </div>
+        </div>
+        <div className="flex max-w-[1440px] justify-center mx-auto">
+          <div className="w-60 mx-9 mt-10 text-center ">
+            <img className="mx-auto" src="person.png" alt="" />
+            <p className="text-xl font-semibold mt-5">SUNIL</p>
+            <p className="text-lg text-[#333333] ">HEAD OF OPS – MALAYSIA</p>
+            <p className="text-sm text-[#979797] ">Favorite Kind Kones:</p>
+            <p className="text-sm text-[#979797] ">Pandan Gula Melaka</p>
+          </div>
+          <div className="w-60 mx-9 mt-10 text-center ">
+            <img className="mx-auto" src="person.png" alt="" />
+            <p className="text-xl font-semibold mt-5">SUNIL</p>
+            <p className="text-lg text-[#333333] ">HEAD OF OPS – MALAYSIA</p>
+            <p className="text-sm text-[#979797] ">Favorite Kind Kones:</p>
+            <p className="text-sm text-[#979797] ">Pandan Gula Melaka</p>
+          </div>
+          <div className="w-60 mx-9 mt-10 text-center ">
+            <img className="mx-auto" src="person.png" alt="" />
+            <p className="text-xl font-semibold mt-5">SUNIL</p>
+            <p className="text-lg text-[#333333] ">HEAD OF OPS – MALAYSIA</p>
+            <p className="text-sm text-[#979797] ">Favorite Kind Kones:</p>
+            <p className="text-sm text-[#979797] ">Pandan Gula Melaka</p>
+          </div>
+          <div className="w-60 mx-9 mt-10 text-center ">
+            <img className="mx-auto" src="person.png" alt="" />
+            <p className="text-xl font-semibold mt-5">SUNIL</p>
+            <p className="text-lg text-[#333333] ">HEAD OF OPS – MALAYSIA</p>
+            <p className="text-sm text-[#979797] ">Favorite Kind Kones:</p>
+            <p className="text-sm text-[#979797] ">Pandan Gula Melaka</p>
+          </div>
+        </div>
+        <div className="flex max-w-[1440px] justify-center mx-auto">
+          <div className="w-60 mx-9 mt-10 text-center ">
+            <img className="mx-auto" src="person.png" alt="" />
+            <p className="text-xl font-semibold mt-5">SUNIL</p>
+            <p className="text-lg text-[#333333] ">HEAD OF OPS – MALAYSIA</p>
+            <p className="text-sm text-[#979797] ">Favorite Kind Kones:</p>
+            <p className="text-sm text-[#979797] ">Pandan Gula Melaka</p>
+          </div>
+          <div className="w-60 mx-9 mt-10 text-center ">
+            <img className="mx-auto" src="person.png" alt="" />
+            <p className="text-xl font-semibold mt-5">SUNIL</p>
+            <p className="text-lg text-[#333333] ">HEAD OF OPS – MALAYSIA</p>
+            <p className="text-sm text-[#979797] ">Favorite Kind Kones:</p>
+            <p className="text-sm text-[#979797] ">Pandan Gula Melaka</p>
+          </div>
+          <div className="w-60 mx-9 mt-10 text-center ">
+            <img className="mx-auto" src="person.png" alt="" />
+            <p className="text-xl font-semibold mt-5">SUNIL</p>
+            <p className="text-lg text-[#333333] ">HEAD OF OPS – MALAYSIA</p>
+            <p className="text-sm text-[#979797] ">Favorite Kind Kones:</p>
+            <p className="text-sm text-[#979797] ">Pandan Gula Melaka</p>
+          </div>
+          <div className="w-60 mx-9 mt-10 text-center ">
+            <img className="mx-auto" src="person.png" alt="" />
+            <p className="text-xl font-semibold mt-5">SUNIL</p>
+            <p className="text-lg text-[#333333] ">HEAD OF OPS – MALAYSIA</p>
             <p className="text-sm text-[#979797] ">Favorite Kind Kones:</p>
             <p className="text-sm text-[#979797] ">Pandan Gula Melaka</p>
           </div>
